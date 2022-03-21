@@ -1,0 +1,170 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* Header Element styling */
+html {
+    background-color: black;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.header img {
+    height: 50px;
+    color: seashell;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-size: 22px;
+    color: seashell;
+    margin-left: 50px;
+}
+
+/* Mission Section */
+.mission {
+    display: flex;
+    background-image: url('images/mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.sheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+   margin: 300px auto;
+   width: 100%;
+   height: 85px;
+   background-color: black; 
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.sheader h2 {
+    margin-top: 3px;
+    margin-bottom: 12px;
+    font-size: 36px;
+}
+
+.sheader h4 {
+    margin-top: 5px;
+}
+
+/* Tea of the Month Section */
+
+#totm {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+#totm h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+#totm h4 {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#teatype {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#teatype figure {
+    margin: 10px 10px;
+}
+
+/* Location Section */
+
+.location {
+    background-image: url('images/locations-background.webp');
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.location h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.location ul {
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    height: 200px;
+    width: 200px;
+    padding: 35px 50px;
+    padding-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+.location li {
+    padding: 5px;
+    text-align: center;
+    margin: 5px auto 10px;
+}
+
+
+
+/* Footer Section */
+
+.tea-cozy {
+    text-align: center;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left:
+}
+
+
+
