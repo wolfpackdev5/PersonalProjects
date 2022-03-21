@@ -1,0 +1,164 @@
+/* Header Content */
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav ul {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 2rem;
+}
+
+ header a {
+     color: black;
+ }
+
+ .break img {
+     display: block;
+     height: 250px;
+     width: 50%;
+     margin: auto;
+ }
+
+ @media only screen and (max-width: 1000px) {
+     .logo h1{
+         width: 100%;
+         text-align: center;
+     }
+
+     .logo img {
+         display: none;
+     }
+ }
+
+ /* Services Section */
+ .main-services {
+     background-image: url(images/wolves.jpeg);
+     height: 750px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
+ }
+
+ .main-services h2 {
+     font-size: 4rem;
+     margin: auto;
+     vertical-align: center;
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-shadow: 1px 1px 2px white;
+ }
+
+ .main-services p {
+     background-color: black;
+     font-size: 2rem;
+     margin: 0 auto;
+     text-align: center;
+     text-shadow: 1px 1px 2px white;
+ }
+
+ .main-services #par1 {
+     margin: 600px auto;
+ }
+
+
+
+ /* Social Media Section */
+ .main-social-media {
+     text-align: center;
+ }
+
+ .main-social-media h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid grey;
+ }
+ 
+ .links {
+     margin-top: 0;
+     display: grid;
+     height: 400px;
+     grid-template-columns: repeat(2, 1fr);
+     align-content:center;
+     justify-items: center;
+     flex-shrink: 2;
+ }
+
+ .links img {
+     max-height: 250px;
+     max-width: 250px;
+ }
+
+ @media only screen and (max-width: 1000px) {
+
+    .links img {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+     .links figcaption {
+         display: none;
+     }
+ }
+
+ @media only screen and (max-width: 500px) {
+
+    .links img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+ }
+
+
+ /* Pack Section */
+
+ .main-pack {
+     text-align: center;
+     height: 750px;
+ }
+
+ .main-pack h2 {
+     font-size: 3rem;
+     border-bottom: 1px solid grey;
+ }
+
+ .main-pack p {
+     font-size: 3rem;
+     font-weight: bold; 
+ }
+
+ .media-content {
+     display: flex;
+     overflow-x: scroll;
+     overflow-y: hidden;
+ }
+
+ .image-container {
+     display: inline-flex;
+ }
+
+ @media only screen and (max-width: 1000px) {
+    .media-content {
+        flex-shrink: 2;
+    }
+ }
+
+ /* Footer */
+
+ footer {
+     background-color: grey;
+     padding: 25px;
+     margin-top: 75px;
+ }
